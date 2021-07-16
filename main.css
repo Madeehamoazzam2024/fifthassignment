@@ -1,0 +1,137 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.JOC{
+padding-bottom: 40px;
+padding: 1.5rem;
+}
+.JOC2{
+ padding-bottom: 80px;
+ line-height: 40px;
+ background-color: rgb(93, 182, 182);
+ padding: 1.5rem;
+ color: white ;
+}
+.JOC3{
+ line-height: 20px;
+ padding: 1.5rem;
+ background-color: rgb(70, 196, 191);
+ border: 0ch;
+ 
+ color: white;
+}
+.WU{
+    padding-bottom: 30px;
+    
+}
+.SU{
+    background-color: rgb(166, 245, 9);
+    width: 85%;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    margin-left: 15px;
+  
+   
+}
+.MS{
+    color: white;
+}
+.pm{
+    color: white;
+   
+}
+.JOC1{
+    color: rgb(93, 182, 182);
+   font-weight: bold;
+   padding-bottom: 1.5rem;
+}
+.hassie-free{
+    color: yellowgreen;
+    padding-bottom: 1.2rem;
+}
+.gainaccess{
+    color: darkgray;
+    line-height:1.5rem;
+}
+.fullaccess{
+    padding-bottom: 1.3rem;
+}
+
+@media (min-width: 1024px) {
+    .JOC{
+        padding-left: 30px;
+    }
+    .JOC1{
+        padding-top: 30px;
+        font-size: 30px;
+        padding-bottom: 2.5rem;
+        }
+    .hassie-free{
+        font-size: 25px;
+    }
+    .gainaccess{
+        font-size: 20px;
+        padding-bottom: 3.5rem;
+    }
+  .JOC2{
+      width: 50%;
+      height: 45vh;
+      line-height: 50px;
+      padding-top: 50px;
+      padding-left: 80px;
+  }
+  .JOC3{
+      width: 50%;
+      float: right;
+      padding-left: 80px;
+      padding-top: 70px;
+  }
+  .pm1{
+      font-size: 20px;
+      
+  }
+  .pm{
+      font-size: 40px;
+      
+  }
+.MS{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+  .SU{
+      width: 70%;
+      
+     
+  }
+  .fullaccess{
+      font-size: 20px;
+    
+  }
+  button{
+      margin-left: 1000px;
+  }
+  .WU{
+      font-size: 30px;
+      padding-bottom: 3rem;
+      font-weight: bold;
+  }
+  .TIE{
+      font-size: 20px;
+      line-height: 25px;
+  }
+  .row{
+      display: flex;
+  }
+  .row>section{
+      flex: 1;
+  }
+}
